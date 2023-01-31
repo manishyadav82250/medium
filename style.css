@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffc017;
+    height: 70px;
+    border-bottom: black solid 2px;
+    position: fixed;
+    width: 100%; 
+}
+nav img{
+    height: 40px;
+    margin-left: 200px;   
+    margin-top: 10px;
+    cursor: pointer;
+}
+nav ul {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-right: 200px;
+    cursor: pointer;
+}
+nav button{
+    border-radius: 100px;
+    height: 33px;
+    width: 90px;
+    border-width: 1px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    height: 65vh;
+    background-color: #ffc017;
+    border-bottom: black solid 2px;
+}
+.text-section h3{
+    margin-left: 210px;
+    margin-top: 20px;
+}
+.text-1{
+    margin-left: 200px;
+
+}
+.text-1 h1{
+    font-size: 90px;
+    color: #080808;  
+    padding-top: 120px;
+}
+.text-1 p{
+    font-size: 25px;
+    margin-top: 25px;
+    color: #745e22;
+}
+.btn-1{
+    color: white;
+   background-color: #191919;
+    border-radius: 20px;
+    height: 40px;
+    width: 210px;
+    margin-top: 40px;
+    font-size: 17px ;
+    cursor: pointer;
+}
+.gri{
+    padding: 10px 200px;
+    height: 30vh;
+    width: 100%;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3 ,1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.box{
+    display: flex;
+}
+.number{
+ 
+    width: 15%
+}
+.text{
+   
+    width: 95%;
+}
+.parent {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    height: 180px;
+    width: 700px;
+    margin-left: 140px;
+    margin-top: 20px;
+    }
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;     
+    }
+   .footer{
+    display: flex;
+   }
+   .left-footer{
+    width: 60%;
+   }
+   .right-footer{
+    width: 40%;
+   }
+   .right-button{
+    height: 180px;
+    width: 310px;
+    margin-top: 20px;
+   }
+   .button-section{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+   }
+     .button-section button{
+    height: 27px;
+    padding: 0px 8px;
+    font-size: 12px;
+    margin-right: 15px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    border-color: #eeeeee;
+    color: #ababab;
+    cursor: pointer;
+   }
+   .right-button ul{
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    font-size: 15px;
+    width: 330px;
+   }
+   .right-button ul li{
+    padding: 8px;
+    color: #8c8c8c;
+   cursor: pointer;
+   }
